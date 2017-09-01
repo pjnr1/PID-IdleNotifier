@@ -88,6 +88,7 @@ def ProcessCheckerWithMail(sc):
                                                              status=status))
 
 if __name__ == '__main__':
+    # args unused at the moment
     parser = argparse.ArgumentParser()
     parser.add_argument('--pid')
     parser.add_argument('--mailto')
